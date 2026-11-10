@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz de Conhecimentos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <main class="quiz">
+
+        <header>
+
+            <span class="brand">QUIZ<span>.</span></span>
+
+            <span class="level">DESAFIO DE CONHECIMENTOS</span>
+
+        </header>
+
+        <section id="quizScreen">
+
+            <div class="progress-info">
+
+                <span id="questionNumber">PERGUNTA 01 / 05</span>
+
+                <span id="progressPercent">20%</span>
+
+            </div>
+
+            <div class="progress-track">
+
+                <div id="progressBar"></div>
+
+            </div>
+
+            <p class="eyebrow">
+
+                TESTE O QUE VOCÊ SABE
+
+            </p>
+
+            <h1 id="question">
+
+                Carregando pergunta...
+
+            </h1>
+
+            <div id="answers" class="answers"></div>
+
+            <p id="feedback" class="feedback"></p>
+
+            <button id="nextButton" disabled>
+
+                Próxima pergunta →
+
+            </button>
+
+        </section>
+
+        <section id="resultScreen" hidden>
+
+            <div class="trophy">🏆</div>
+
+            <p class="eyebrow">
+
+                DESAFIO CONCLUÍDO
+
+            </p>
+
+            <h1>Você terminou!</h1>
+
+            <p class="score-label">
+
+                SUA PONTUAÇÃO
+
+            </p>
+
+            <strong id="finalScore">0/5</strong>
+
+            <p id="finalMessage"></p>
+
+            <button id="restartButton">
+
+                Jogar novamente ↻
+
+            </button>
+
+        </section>
+
+        <footer>
+
+            Aprender também pode ser divertido.
+
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
